@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LOVT</h1>
+                <h2>You Love, <br>
+                    your loft!</h2>
+            </div>
+            
+            <button>☰</button>
+            
+            
+        </div>
+    </header> <!-- end of header-->
+
+    <section class="banner">
+        <div class="container">
+            <div class="carousel">
+                <img src="img/slider-image.png" alt="Foto do Loft em destaque">
+
+                <div class="controls">
+                    <button><img src="img/seta-2.svg" alt="Voltar Slide"></button>
+                    <button><img src="img/seta-1.svg" alt="Avançar Slide"></button>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of section banner-->
+
+    <section class="lofts">
+        <div class="container">
+            <article>
+                <div class="thumb" style="background-image: url(img/project-1.png);"></div>
+                <div class="info">
+                    <div>
+                        <h3 class="price">$ 1,200</h3>
+                        <small class="tag tag-new">New</small>
+                    </div>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut
+                        est. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+                        Casamentiss
+                        faiz malandris se pirulitá. Cevadis im ampola pa</p>
+                </div><!-- end of div info-->
+            </article>
+
+            <article>
+                <div class="thumb" style="background-image: url(img/project-1.png);"></div>
+                <div class="info">
+                    <div>
+                        <h3 class="price">$ 1,200</h3>
+                        <small class="tag tag-sale">Sale</small>
+                    </div>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut
+                        est. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+                        Casamentiss
+                        faiz malandris se pirulitá. Cevadis im ampola pa</p>
+                </div><!-- end of div info-->
+            </article>
+        </div><!-- end of div container-->
+    </section> <!-- end of section lofts-->
+
+    <section class="styles">
+        <div class="container">
+            <h2>Your Style</h2>
+            <article style="background-image: url(img/industrial.png)">
+                <h3>Industrial</h3>
+            </article>
+            <article style="background-image: url(img/modern.png)">
+                <h3>Modern</h3>
+            </article>
+            <article style="background-image: url(img/classic.png)">
+                <h3>Classic</h3>
+            </article>
+        </div>
+    </section><!-- end of section styles-->
+
+    <section class="contato">
+        <h2>Contato</h2>
+        <form action="contato.html" method="POST">
+            <p> <label for="nome">Nome</label>
+            <input type="text" name="nome"id="nome" placeholder="Digite seu nome" required></p>
+
+            <p> <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Informe o seu email (email@email.com)" required></p>
+            
+            <p> <label for="tel">Telefone</label>
+            <input type="tel" name="tel" id="tel" placeholder="Informe o telefone para contato com DDD"></p>
+            
+            <fieldset>
+                <legend>Tipo de Interesse</legend> 
+            <input type="checkbox" name="interesse" id="aluguel"> <label for="aluguel">Aluguel</label></p>
+            <input type="checkbox" name="interesse" id="compra"> <label for="compra">Compra</label></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Aceita animais?</legend> 
+            <input type="radio" name="pet" id="sim" value="sim"><label>Sim</label><br>
+            <input type="radio" name="pet" id="nao" value="nao"><label>Nao</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Região</legend>
+            <select name="regiao" id="regiao">
+                <option selected disabled>Selecione</option>
+                <option value="norte">Norte</option>
+                <option value="nordeste">Nordeste</option>
+                <option value="centro">Centro-Oeste</option>
+                <option value="sudeste">Sudeste</option>
+                <option value="sul">Sul</option>
+            </select>
+            </fieldset>
+
+            
+                <p><label for="mensagem">Obervações</label></p>
+                <p><textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea></p>
+            
+                
+                <p><button type="submit">Enviar</button></p>
+
+        </form>
+
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.078826650603!2d-74.17286538459426!3d40.738290979329065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2537ef2f65843%3A0x386539ca4e19619b!2sBroad%20St%2C%20Newark%2C%20NJ%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1631717798409!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="info">
+                <p>LOVT - You love, your loft!</p>
+
+                <p>Broad St,
+                    Newark, NJ 07102 - USA</p>
+
+                <p><a href="tel:+1973854555548">+1 (973) 854-555-548</a></p>
+                <p><a href="mailto:contact@lovtrealstate.com">contact@lovtrealstate.com</a></p>
+
+                <h4>OUR SOCIAL MEDIAS:</h4>
+                <div class="social-medias">
+                    <ul>
+                        <li><a href="#"><img src="img/icon-facebook.png" alt="Icon Instagram"></a></li>
+                        <li><a href="#"><img src="img/icon-instagram.png" alt="Icon Facebook"></a></li>
+                        <li><a href="#"><img src="img/icon-whatsapp.png" alt="Icon WhatsApp"></a></li>
+                    </ul>
+                </div><!-- end of div social-medias-->
+            </div><!-- end of div info-->
+        </div><!-- end of div container-->
+    </footer><!-- end of footer-->
+
+</body>
+
+</html>

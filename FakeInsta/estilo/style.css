@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    display: flex;
+    box-shadow: 5px 3px 3px #99999973;
+    justify-content: space-between;
+    color: #777777;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.logo1 {
+    width: 150px;
+}
+
+.logo2 {
+    width: 150px;
+}
+
+.busca {
+    text-align: center;
+    color: lightgrey;
+    border-radius: 5px;
+    border-width: thin;
+    font-size: 14px;
+    padding: 5px;
+}
+
+nav#menu {
+    display: inline-block;
+}
+
+a.link1 {
+    text-decoration: none;
+    color: #777777;
+}
+a.link1:hover{
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.avatar {
+    width: 30px
+}
+
+.menu1 {
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: rgba(245, 245, 245, 0.493);
+    margin-top: -5px;
+}
+
+.frase1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.cadastro-container {
+    display: flex;
+    width: 100%;
+    margin: 8px;
+    justify-content: space-around;
+}
+
+.celular {
+    margin-top: 10px;
+    width: 75%;
+    text-align: center;
+}
+
+.cadastro {
+    display: flexbox;
+    max-width: 50%;
+    font: normal 400 16px 'Open Sans';
+    color: #575757;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgrey;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}
+
+form input:not([type='radio']):not([type='checkbox']),
+form textarea,
+form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    border-color: #C4C4C4;
+    margin-bottom: 8px;
+    resize: none;
+}
+
+
+button {
+    color: white;
+    background-color: rgb(42, 90, 245);
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.conectar {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgrey;
+    border-radius: 3px;
+    padding: 8px;
+    width: 100%;
+    align-items: center;
+
+
+}
+
+footer {
+    margin: 5px;
+}
